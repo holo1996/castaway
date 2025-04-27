@@ -37,7 +37,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 22px;
+    font-size: 1.375rem;
     color: #fff;
     line-height: 1.5;
     background-color: #191919;
@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section_title {
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 400;
     line-height: 79.2px;
     letter-spacing: 2.88px;
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Button  */
 .btn {
     font-family: "DM Sans";
-    font-size: 17px;
+    font-size: 1.0625rem;
     line-height: 27px;
     letter-spacing: 0;
     font-weight: 400;
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
     display: flex;              /* используем flex-контейнер */
     width: 403px;  
-    font-size: 17px;
+    font-size: 1.0625rem;
     line-height: 27px;
     text-transform: capitalize;
     
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro_text h1{
-    font-size: 70px;
+    font-size: 4.375rem;
     font-weight: 400;
     line-height: 88px;
     letter-spacing: 3.2px;
@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 .intro_text-next {
     position: relative;
     
-    font-size: 75px;
+    font-size: 4.6875rem;
 
     margin-right: 25px;
 }
@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro_text-level {
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: 700;
 
     height: 88px;
@@ -281,12 +281,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro_listen span {
     display: block;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 24px;
 }
 
 .intro_listen-links i {
-    font-size: 32px;
+    font-size: 2rem;
     margin-right: 17px;
 }
 
@@ -337,7 +337,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 6px;
     background-color: #191919;
 
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     line-height: 27px;
     color: #fff;
@@ -346,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .episode_suptitle {
     margin-top: 48px;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 400;
     color: #118DA8;
     line-height: 27px;
@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
 .episode_title {
     margin-top: 17.5px;
 
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 400;
     line-height: 70.4px;
     letter-spacing: 2.56px;
@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
 .episode_text {
     margin: 28px 0 18px;
 
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 400;
     line-height: 33px;
     color: #FFFFFFB2;
@@ -402,13 +402,13 @@ h1, h2, h3, h4, h5, h6 {
 .review_suptitle {
     margin-top: 20px;
     
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 27px;
     color: #118DA8;
 }
 
 .review_title {
-    font-size: 65px;
+    font-size: 4.0625rem;
     line-height: 79.2px;
     letter-spacing: 2.88px;
     font-weight: 400;
@@ -419,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
 .review_text {
     margin-top: 28px;
 
-    font-size: 22px;
+    font-size: 1.375rem;
     line-height: 33px;
     font-weight: 400;
     color: #FFFFFFB2;
@@ -457,13 +457,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .subscribe_suptitle {
     display: block;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 27px;
     color: #118da8;
 }
 
 .subscribe_title {
-    font-size: 72px;
+    font-size: 4.5rem;
     line-height: 79.2px;
     letter-spacing: 2.88px;
     font-weight: 400;
@@ -490,7 +490,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "DM Sans";
     font-style: normal;
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 28.8px;
     font-weight: 400;
 
@@ -500,7 +500,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .input::placeholder {
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 28.8px;
     font-weight: 400;
     color: #FFFFFFB2;
@@ -552,7 +552,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .clients_text {
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 43.2px;
     font-weight: 400;
     color: #fff;
@@ -561,7 +561,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .clients_name {
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 28.8px;
     font-weight: 400;
     color: #FFFFFFB2;
@@ -578,7 +578,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     position: relative;
 
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 27px;
     color: #fff;
     font-weight: 400;
@@ -602,7 +602,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     margin-top: 23px;
 
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .social_icons i {
@@ -636,6 +636,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer_social i {
-    font-size: 32px;
+    font-size: 2rem;
     margin-right: 17px;
 }
