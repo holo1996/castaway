@@ -19,10 +19,10 @@
             
             <nav class="nav">
 
-                <a class="nav_link" href="#">Home</a>
-                <a class="nav_link" href="#">Episodes</a>
-                <a class="nav_link" href="#">About</a>
-                <a class="nav_link" href="#">Contact</a>
+                <a class="nav_link" href="#intro">Home</a>
+                <a class="nav_link" href="#episode">Episodes</a>
+                <a class="nav_link" href="#review">About</a>
+                <a class="nav_link" href="#clients">Contact</a>
                 
             </nav>
             
@@ -32,7 +32,7 @@
     <div class="page">
 
         <section class="section">
-            <div class="container">
+            <div class="container" id="intro">
     
 
                 <div class="intro">
@@ -54,11 +54,21 @@
                             <div class="intro_listen">
                                 <span>Listen on</span>
                                 <div class="intro_listen-links">
-                                    <i class="fa-brands fa-spotify"></i>
-                                    <i class="fa-brands fa-apple"></i>
-                                    <i class="fa-brands fa-soundcloud"></i>
-                                    <i class="fa-brands fa-podcast"></i>
-                                    <i class="fa-brands fa-radio"></i>
+                                    <a href="https://spotify.com" target="_blank">
+                                        <i class="fa-brands fa-spotify"></i>
+                                    </a>
+                                    <a href="https://apple.com" target="_blank">
+                                        <i class="fa-brands fa-apple"></i>
+                                    </a>
+                                    <a href="https://soundcloud.com" target="_blank">
+                                        <i class="fa-brands fa-soundcloud"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-podcast"></i>
+                                    </a>
+                                    <a href="https://radio.com" target="_blank">
+                                        <i class="fa-brands fa-radio"></i>
+                                    </a>
                                 </div>
                                 
                             </div>
@@ -75,7 +85,7 @@
             <div class="container">
 
 
-                <div class="section_header">
+                <div class="section_header" id="episode">
                     <h1 class="section_title">Latest episodes</h1>
                     <button class="btn">View all episodes</button>
                 </div>
@@ -93,7 +103,7 @@
                             <div class="episode_tag">Gear</div>
                             <div class="episode_suptitle">Episode 3</div>
                             <div class="episode_title">Should you get outboard audio gear?</div>
-                            <div class="episode_text">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</div>
+                            <div class="episode_text">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here's our reasons on why you might want to consider picking something up.</div>
                             <button class="btn">View Episode Details</button>
                         </div>
 
@@ -125,7 +135,7 @@
                             <div class="episode_tag">Gear</div>
                             <div class="episode_suptitle">Episode 1</div>
                             <div class="episode_title">The best microphone under $200</div>
-                            <div class="episode_text">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</div>
+                            <div class="episode_text">With so many microphones on the market, how are you supposed to know what's the best? Take a look at our top picks.</div>
                             <button class="btn">View Episode Details</button>
                         </div>
 
@@ -139,7 +149,7 @@
 
 
         <section class="section">
-            <div class="container">
+            <div class="container" id="review">
 
 
                 <div class="review">
@@ -150,7 +160,7 @@
                             <div class="review_suptitle">Meet your host</div>
                             <div class="review_title">Jacob Paulaner</div>
                             <div class="review_text">Jacob has a background in audio engineering, and has been podcasting since the early days.</div>
-                            <div class="review_text">He’s here to help you level up your game by sharing everything he’s learned along the way.</div>
+                            <div class="review_text">He's here to help you level up your game by sharing everything he's learned along the way.</div>
                         </div>
                     </div>
 
@@ -199,14 +209,14 @@
         
 
         <section class="section">
-            <div class="container">
+            <div class="container" id="clients">
 
 
                 <div class="clients">
 
                     <div class="clients_item up">
                         <div class="clients_rate">★★★★★</div>
-                        <div class="clients_text">I can’t recommend this podcast enough</div>
+                        <div class="clients_text">I can't recommend this podcast enough</div>
                         <div class="clients_name">Betty Lacey</div>
                     </div>
                     
@@ -236,25 +246,7 @@
 
                     <div class="clients_item">
                         <div class="clients_rate">★★★★★</div>
-                        <div class="clients_text">I’ve upped my game considerably since I started listening</div>
-                        <div class="clients_name">Steven Blast</div>
-                    </div>
-                    
-                    <div class="clients_item">
-                        <div class="clients_rate">★★★★★</div>
-                        <div class="clients_text">Every episode is a gem!</div>
-                        <div class="clients_name">Jessica Knowl</div>
-                    </div>
-                    
-                    <div class="clients_item">
-                        <div class="clients_rate">★★★★★</div>
-                        <div class="clients_text">Whoa whoa, let me take some notes!</div>
-                        <div class="clients_name">Scott Adams</div>
-                    </div>
-
-                    <div class="clients_item">
-                        <div class="clients_rate">★★★★★</div>
-                        <div class="clients_text">I’ve upped my game considerably since I started listening</div>
+                        <div class="clients_text">I've upped my game considerably since I started listening</div>
                         <div class="clients_name">Steven Blast</div>
                     </div>
                 </div>
@@ -273,17 +265,23 @@
                     <div class="footer_logo footer_item">
                         <img src="assets/images/logo.svg" alt="">
                         <div class="social_icons">
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <a href="https://instagram.com" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="https://facebook.com" target="_blank">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
                         </div>
                     </div>
                     
                     <div class="footer_nav footer_item">
-                        <a class="nav_link" href="#">Home</a>
-                        <a class="nav_link" href="#">Episodes</a>
-                        <a class="nav_link" href="#">About</a>
-                        <a class="nav_link last" href="#">Contact</a>
+                        <a class="nav_link" href="#intro">Home</a>
+                        <a class="nav_link" href="#episode">Episodes</a>
+                        <a class="nav_link" href="#review">About</a>
+                        <a class="nav_link last" href="#clients">Contact</a>
                     </div>
                     
                     <div class="footer_links footer_item">
@@ -296,11 +294,21 @@
                     </div>
                     
                     <div class="footer_social">
-                        <i class="fa-brands fa-spotify"></i>
-                        <i class="fa-brands fa-apple"></i>
-                        <i class="fa-brands fa-soundcloud"></i>
-                        <i class="fa-brands fa-podcast"></i>
-                        <i class="fa-brands fa-radio"></i>
+                        <a href="https://spotify.com" target="_blank">
+                            <i class="fa-brands fa-spotify"></i>
+                        </a>
+                        <a href="https://apple.com" target="_blank">
+                            <i class="fa-brands fa-apple"></i>
+                        </a>
+                        <a href="https://soundcloud.com" target="_blank">
+                            <i class="fa-brands fa-soundcloud"></i>
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-podcast"></i>
+                        </a>
+                        <a href="https://radio.com" target="_blank">
+                            <i class="fa-brands fa-radio"></i>
+                        </a>
                     </div>
                     
                 </footer>
